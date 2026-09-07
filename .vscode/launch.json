@@ -10,18 +10,18 @@
             "name": "Attach"
         },
         {
-            "name": "Launch index.html",
+            "name": "Pagina Principal.html",
             "type": "firefox",
             "request": "launch",
             "reAttach": true,
-            "file": "${workspaceFolder}/index.html"
+            "file": "${workspaceFolder}/Pagina Principal.html"
         },
         {
-            "name": "Launch localhost",
+            "name": "Projeto",
             "type": "firefox",
             "request": "launch",
             "reAttach": true,
-            "url": "http://localhost/index.html",
+            "url": "C:\\Users\\rando.DAVI\\Downloads\\Projeto\\HTML\\Pagina Principal.html",
             "webRoot": "${workspaceFolder}"
         },
         {
