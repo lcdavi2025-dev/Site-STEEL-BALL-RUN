@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<head>
+    <label for="Estagios">Escolha uma Estágio:</label>
+     <select id="Estagios" name="Estagios">
+  <option value="" disabled selected>Escolha uma Estágio:</option>
+  <option value="file:///C:/Users/rando.DAVI/Downloads/Projeto/HTML/Site%20SBR.html">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+  <option value="7">7</option>
+  <option value="8">8</option>
+  <option value="9">9</option>
+  <option value="10">10</option>
+</select>
+ <button onclick="redirecionar()">Confirmar</button>
+   <script>
+        function redirecionar() {
+            var select = document.getElementById("Estagios");
+            var url = select.value;
+         
+            if (url !== "file:///C:/Users/rando.DAVI/Downloads/Projeto/HTML/Site%20SBR.html") {
+
+                window.location.href = url;
+            } else {
+                alert("Estágio não disponível no momento. Por favor, escolha outro estágio.");
+            }
+        }
+    </script>
+    </form>
+
+</body>
+</html>
+</head>
+</html>
